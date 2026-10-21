@@ -1,0 +1,82 @@
+.services-list-section {
+  padding-top: 80px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.service-card {
+  background-color: #ffffff;   
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 40px 30px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.card-icon {
+  width: 60px;
+  height: 60px;
+  background-color: #f3e8ff;
+  color: #7B39F3;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  margin: 0 auto 20px auto;
+}
+
+.card h3 {
+  text-align: center;
+  font-size: 1.25rem;
+  margin-bottom: 15px;
+  color: #111827;
+}
+
+.card p {
+  text-align: center;
+  color: #6b7280;
+  font-size: 0.9rem;
+  margin-bottom: 25px;
+}
+
+.card hr {
+  border: none;
+  border-top: 1px solid #e5e7eb;
+  margin-bottom: 20px;
+}
+
+.features h4 {
+  font-size: 0.75rem;
+  color: #7B39F3;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.features ul li {
+  font-size: 0.9rem;
+  color: #111827;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.features ul li::before {
+  content: "✓";
+  color: #7B39F3;
+  font-weight: bold;
+}
+
+@media (max-width: 992px) {
+  .services-grid { grid-template-columns: 1fr; }
+}

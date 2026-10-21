@@ -1,0 +1,37 @@
+.works-hero {
+  text-align: center;
+  margin-top: 96px;
+  padding-top: 96px;
+  padding-bottom: 48px;
+}
+
+.works-hero .badge {
+  background: #E9D5FF;
+  color: #7B39F3;
+  padding: 6px 16px;
+  border-radius: 50px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.works-hero h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #11182b;
+}
+
+.works-hero p {
+  font-size: 1rem;
+  color: #765348;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .works-hero h1 { font-size: 1.8rem; }
+}

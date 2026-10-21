@@ -1,0 +1,50 @@
+/* --- VARIABEL GLOBAL --- */
+:root {
+  --primary-purple: #7B39F3;
+  --primary-purple-light: #9d5cff;
+  --purple-gradient: linear-gradient(135deg, #7B39F3 0%, #5B21B6 100%);
+  --bg-dark-navy: #0f172a;
+  --bg-cream: #FFF9F2;
+  --bg-white: #ffffff;
+  --text-dark: #11182b;
+  --text-muted: #6B7280;
+  --text-light: #F3F4F6;
+}
+/* --- SECTION COMMON --- */
+.section {
+  padding: 96px 0 0 0;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.section-badge {
+  color: #7B39F3;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #11182b;
+  margin-bottom: 12px;
+}
+
+.section-subtitle {
+  color: #6B7280;
+  max-width: 650px;
+  margin: 0 auto;
+  font-size: 0.95rem;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}

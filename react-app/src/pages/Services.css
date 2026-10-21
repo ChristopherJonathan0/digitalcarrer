@@ -1,0 +1,13 @@
+.main-content {
+  background-color: #fdf8f2;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  margin-top: -60px;
+  position: relative;
+  z-index: 2;
+  padding-bottom: 80px;
+}
+
+.cta-wrapper {
+  padding: 40px 20px 0 20px;
+}

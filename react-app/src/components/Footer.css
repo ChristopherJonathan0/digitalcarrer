@@ -1,0 +1,145 @@
+.footer {
+  background: #0f172a;
+  color: #F3F4F6;
+  padding: 60px 0 20px;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+/* Kolom 1: Brand */
+.footer-brand p {
+  color: #9698a2;
+  font-size: 0.85rem;
+  margin: 15px 0 20px;
+  max-width: 300px;
+}
+
+.footer-logo {
+  color: #F3F4F6;
+  font-size: 24px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.footer-logo .logo-icon {
+  color: #7B39F3;
+  font-size: 22px;
+}
+
+/* Newsletter */
+.newsletter {
+  display: flex;
+  gap: 10px;
+  max-width: 320px;
+}
+
+.newsletter input {
+  flex: 1;
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: 1px solid #29354a;
+  background: rgba(255, 255, 255, 0.05);
+  color: #F3F4F6;
+  font-family: inherit;
+  font-size: 0.85rem;
+  outline: none;
+  transition: 0.3s ease;
+}
+
+.newsletter input::placeholder {
+  color: #8da0bd;
+}
+
+.newsletter input:focus {
+  border-color: #7B39F3;
+}
+
+.newsletter button {
+  padding: 10px 20px;
+  background: #7B39F3;
+  color: #F3F4F6;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.newsletter button:hover {
+  background: #5B21B6;
+}
+
+/* Kolom 2-4: Link */
+.footer-links h4 {
+  font-size: 0.95rem;
+  margin-bottom: 18px;
+  color: #F3F4F6;
+  font-weight: 700;
+}
+
+.footer-links ul li {
+  margin-bottom: 12px;
+}
+
+.footer-links ul a {
+  color: #9698a2;
+  font-size: 0.85rem;
+  transition: 0.3s ease;
+}
+
+.footer-links ul a:hover {
+  color: #9d5cff;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  border-top: 1px solid #29354a;
+  padding-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.8rem;
+  color: #9698a2;
+}
+
+.footer-bottom-links a {
+  margin-left: 20px;
+  color: #9698a2;
+  transition: 0.3s ease;
+}
+
+.footer-bottom-links a:hover {
+  color: #F3F4F6;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .footer-bottom-links a {
+    margin: 0 10px;
+  }
+}
